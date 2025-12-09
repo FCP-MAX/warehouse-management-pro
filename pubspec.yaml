@@ -48,3 +48,14 @@ workspace:
   - tool
   - web_embedding/element_embedding_demo
   - web_embedding/ng-flutter/flutter
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.3 # 保存语言偏好
+  sqflite: ^2.4.5 # 数据库操作
+  path: ^1.8.3 # 文件路径处理
+  lsl_flutter: ^0.0.5 # 局域网扫描
+  zxing_flutter: ^0.10.0 # 扫码功能
+  excel: ^2.1.0 # Excel导出
